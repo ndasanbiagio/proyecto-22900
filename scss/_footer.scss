@@ -1,0 +1,72 @@
+
+
+.footer-container{
+    position:absolute ;
+    width: 100%;
+    background-color: black ;
+  }
+  
+  .redesSociales{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+  }
+  
+  .btn-whatsapp {
+      display:block;
+      width:70px;
+      height:70px;
+      color: #fff;
+      position: fixed;
+      right:20px;
+      bottom:20px;
+      border-radius:0%;
+      line-height:80px;
+      text-align:center;
+      z-index:999;
+      transition: all 1s;
+      color: teal;
+      cursor: pointer;
+      
+  }
+  
+  .redes-container{
+          font-size: 20px;
+          font-weight: bold;
+          font-variant: small-caps;
+          font-family: monospace;
+          letter-spacing: 4px;
+          color: whitesmoke;
+          text-align:center;
+          word-spacing: 8px
+  }
+  
+  .copyRight:hover{
+    position: center;
+    color: rgb(255, 0, 0);
+    margin:auto;
+    text-decoration: none;
+  }
+  
+  .busquedaDerecha{
+     text-align: right;
+  }
+  
+  .titRedes{
+      color: rgb(0, 255, 30);
+      text-decoration-line: underline;
+      text-decoration-style: dotted;
+      text-decoration-color: rgb(255, 255, 255);
+  }
+   
+  .linkRedes{
+      text-decoration-color: whitesmoke;
+  }
+  
+  .textPie{
+      color: rgba(255, 251, 0, 0.754);
+      text-align: center;
+      font-size: small;
+      font-style: italic;
+  }
+  

@@ -1,0 +1,55 @@
+00:18:42	[Tutora] Chiara Filgueira:	Todo perfecto!
+00:18:54	Diego Montes:	Hola buenas tardes, tuve un problema con el vinculo
+00:30:25	[TUTOR] Nicolas Quintana:	Hola Diego, no hay problema
+00:35:12	Sandra Baronetto:	si
+00:48:19	Diego Montes:	Podrias poner una imagen detrás de carrousel?
+00:48:46	Diego Montes:	con background?
+00:50:48	Sandra Baronetto:	y cambiarle el color a las flechas? por ej. por color negro?
+00:51:16	Diego Montes:	Claro, se entiende
+00:51:19	Diego Montes:	si si
+00:54:21	Sandra Baronetto:	genial Leo!!
+00:54:25	[Profesor] Leonardo Lovera:	.carousel-control-next-icon {    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff0000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");}
+00:54:26	Sandra Baronetto:	gracias!
+00:55:13	Sandra Baronetto:	si, si
+00:56:58	Sandra Baronetto:	si
+01:00:23	Diego Montes:	Si si, como poner la imagen del frente de una casa, y dentro de un pequeño carrousel las fotos del interior
+01:00:29	Diego Montes:	Se ve mucho eso
+01:02:31	Sandra Baronetto:	si
+01:08:11	Carlos Anibal Tejada:	estamos buscando problemas para las soluciones que existen jaja
+01:11:44	Jorge Martin Rodriguez:	si, tal cual 🤦‍♂️
+01:22:13	Sandra Baronetto:	dale
+01:31:57	[TUTOR] Nicolas Quintana:	Si perfecto!
+01:32:03	Mariela Insaurralde:	sisi
+01:46:42	Diego Montes:	Lo que me costo ordenar las box y con esto lo haces al toque me quiero matar..... 😩
+01:47:04	Marcelo Diaz Anido:	jajaja, no fuiste el único :P
+01:47:05	Luis Miguel Graglia:	Mi duda es si no vale la pena realmente hacer todo casi desde cero...
+01:47:27	Diego Montes:	Yo creo que voy a intentar hacer todo de nuevo
+01:47:40	Diego Montes:	😵
+01:47:45	Marcelo Diaz Anido:	En mi caso (Que parece un site de los 90), seguro. Todo depende de cuan avanzado este el sitio supongo.
+01:48:32	Diego Montes:	Yo lo avancé mucho...pero esta bueno como queda
+01:48:58	Jorge Martin Rodriguez:	si les sirve, yo hice eso, arme un nuevo sitio de cero, al tener Bootstrap, no va a llevar tanto como creen.
+01:49:12	Diego Montes:	Y si
+01:49:22	Mariela Insaurralde:	yo ya lo empece de 0 tantas veces que una mancha mas al tigre no cambia nada jajaj
+01:49:36	Jorge Martin Rodriguez:	jajajaja
+01:49:52	Mariela Insaurralde:	igual después de esto salimos buenos seguro!
+01:50:28	Anibal Federico Alvarez:	o con un turno para hacer terapia
+01:50:39	Mariela Insaurralde:	jajjaa mal
+01:51:02	Jorge Martin Rodriguez:	sale turnooo
+01:51:27	Dasanbiagio Diego:	jajaja, yo estoy en la misma... "cada arreglo" significa pasar toda la semana tocando algo sin romper otra cosa...
+01:51:38	Sandra Baronetto:	si si
+01:51:51	Diego Montes:	El mio tiene tantos parches que parece una pelota de futbol
+01:52:03	Marcelo Diaz Anido:	😆
+01:52:33	Marcelo Diaz Anido:	Dieguito, "La pelota no se mancha" :D
+01:52:42	Dasanbiagio Diego:	jajaja
+01:52:42	Diego Montes:	😜
+01:52:55	Diego Montes:	La tire a la 3ra bandeja
+01:57:37	Sandra Baronetto:	gracias!!!!!
+01:57:43	Diego Montes:	gracias
+01:58:56	[Profesor] Leonardo Lovera:	https://startbootstrap.com/
+02:00:25	[TUTOR] Nicolas Quintana:	Estan buenas las plantillas para tomar ideas y aprender a generar ciertos efectos visuales que nos gusten.
+02:01:20	Marcelo Diaz Anido:	Que barbaro que alguien use winrar todavía :D
+02:02:47	Marcelo Diaz Anido:	shhhh :P
+02:03:15	Diego Montes:	jaja HARRRMOSSO
+02:06:54	Sandra Baronetto:	si
+02:15:54	[Profesor] Leonardo Lovera:	https://html5up.net/
+02:20:09	Sandra Baronetto:	si

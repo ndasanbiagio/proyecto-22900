@@ -1,0 +1,7 @@
+// MIXINS
+
+@mixin cuadrado($tamaño, $color) {
+  width: $tamaño;
+  height: $tamaño;
+  background-color: $color;
+}

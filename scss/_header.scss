@@ -1,0 +1,60 @@
+/* HEADER */
+/* navbar************* */
+
+.fonts{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-container{
+    width: 100%;
+    background-color: rgba(80, 75, 75, 0.719);
+    padding: 1em;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgb(4, 255, 0);
+}
+
+.navbar{
+    width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+    /* margin: 1px 1px ; */
+}
+
+/* ********* BEM ************ */
+.lista{
+    list-style: none;
+    display: block;
+}
+
+.lista li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.lista a{
+    text-decoration: none;
+    color: rgb(240, 186, 186);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 1rem;
+    justify-content:space-around;
+}
+
+/* HERO SECTION */
+.hero-container{
+    width: 100%;
+    padding: 1em;
+    background-color: white (0, 0, 0, 0.824);
+    background-attachment: fixed;
+    height: 35vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.linkRedes {
+    float:left;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  
+}

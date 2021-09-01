@@ -1,0 +1,863 @@
+@import "./variables";
+@import "./header";
+@import "./footer";
+@import "./about";
+@import "./mixins";
+@import "./extend";
+
+
+/* RESET DE ESTILOS POR DEFECTO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* *********************** */
+
+
+/* HEADER */
+/* navbar************* */
+
+.fonts{
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-container{
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.719);
+    padding: 1em;
+    position: fixed;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgb(192, 29, 29);
+}
+
+.navbar{
+    width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+    /* margin: 1px 1px ; */
+}
+
+.lista{
+    list-style: none;
+    display: block;
+}
+
+.lista li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(240, 186, 186);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 1rem;
+    justify-content:space-around;
+}
+
+h1{
+    color: rgb(199, 162, 162);
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contac_container{
+    color: rgb(151, 105, 105);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.textoCentral{
+    color: rgb(151, 105, 105);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+h2{
+    color: rgb(145, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.h3{
+    color: rgb(158, 139, 139);
+    font-size: 30px;
+    text-align: center;
+}
+
+.sabor-container{
+    color: rgb(211, 169, 169);
+    font-size: 20px;
+    text-align: center;
+    background: rgba(21, 9, 9, 0.946);
+    padding: 2rem 0;
+    padding: 0 auto;
+}
+
+.text-italic{
+    color: rgb(238, 48, 48);
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+.sectionsPrincipal{
+    margin: 5em 5em;
+    background-image: url(./imagenes/fondoPrincipal.jpg);
+}
+
+.fondoPrincipal{
+    margin: 2em 2em;
+    padding: 2px;
+    background-color: black;   
+}
+
+.textoDerecha{
+    color: rgb(141, 90, 90);
+    font-size: 20px;
+    text-align: right;
+}
+
+.videoSirviendo{
+    image-orientation: from-image;
+    position: fixed;
+
+}
+
+.textoPrincipal{
+    color: rgba(196, 187, 187, 0.801);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.box{
+    position:static;
+    float: none;
+    width: 500px;
+    margin: 0%;
+    padding: 0%;
+    position: center;
+  }
+
+.minibox {
+  object-fit: cover;
+}
+
+.footer-container{
+  position:absolute ;
+  width: 100%;
+  background-color: black ;
+}
+
+.redesSociales{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color: #fff;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+    border-radius:0%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+    transition: all 1s;
+    color: teal;
+    cursor: pointer;
+    
+}
+
+.redes-container{
+        font-size: 20px;
+        font-weight: bold;
+        font-variant: small-caps;
+        font-family: monospace;
+        letter-spacing: 4px;
+        color: whitesmoke;
+        text-align:center;
+        word-spacing: 8px
+}
+
+.copyRight:hover{
+  position: center;
+  color: rgb(255, 0, 0);
+  margin:auto;
+  text-decoration: none;
+}
+
+.busquedaDerecha{
+   text-align: right;
+}
+
+.titRedes{
+    color: rgb(0, 255, 30);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+
+
+.linkRedes{
+    text-decoration-color: whitesmoke;
+}
+
+.textPie{
+    color: rgba(255, 251, 0, 0.754);
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+.bordes{
+    border-top:solid 5px rgb(160, 66, 66);
+    border-right:solid 10px rgb(37, 106, 106);
+    border-bottom:solid 7px rgb(55, 111, 55);
+    border-left:solid 12px rgb(151, 151, 27);
+}
+
+.bordesContainer{
+    border-top:solid 5px whitesmoke;
+    border-right:solid 5px whitesmoke;
+    border-bottom:solid 5px whitesmoke;
+    border-left:solid 5px whitesmoke;
+}
+
+.boxContainer{
+    padding: 20px;
+    margin: 0px;
+    border: 10px solid blue;
+    width: 65px;
+    background: whitesmoke;
+    font-size: 20px;
+    display: inline;
+    box-sizing: contend-box;
+}
+
+.navEnlace {
+  transition: all 1s;
+}
+
+.navEnlace:hover {
+    color: rgb(202, 29, 29);
+    border-radius: 3px;
+    opacity: 80%
+}
+
+.flexContainer {
+    flex-flow: space-between;
+}
+
+/* ********* BEM ************ */
+.card {
+    width: 500px;
+    background-color: #eee;
+    color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card__container-img {
+    overflow: hidden;
+    height:500px;
+  }
+  
+  .card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 2s;
+  }
+  
+  .card__container-img:hover img {
+    transform: scale(1.4);
+  }
+  
+/* ********* BEM *********** */ 
+  .cards {
+      margin-bottom: 16px;
+    }
+  
+  
+  .cards__container-body {
+    padding: 1rem 0;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .Body{
+      font-family: Nunito, sans-serif;
+  }
+
+  .navegacion{
+      display: flex;
+  }
+
+.colorSeleccionado_text{
+    color: rgb(20, 154, 226);
+}
+
+
+.seccionPagos {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 2rem 0;
+}
+
+.contenedorPagos {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Seccion de compras */
+
+.pagosCompras {
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pagoContainer {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 1rem;
+    gap: 30px;
+    width: 20%;
+    flex-grow: 1;
+    
+}
+
+#pago-ver-mas {
+    width: 7%;
+    flex-grow: 0;
+}
+
+.pagoTitulo {
+    color: rgb(192, 79, 79);
+    font-weight: 50px;
+    font-size: 16px;
+}
+
+.pagoEnlace {
+    font-size: 15px;
+    text-decoration: none;
+    color: #374f74;
+}
+
+#seccion--bg-blanco {
+    background-color: #EAEAEA;
+}
+
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-start: 1;
+    gap: 5px;
+    
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .inicio-mes {
+    grid-column: 1;
+  }
+  
+  ol li {
+    text-align: right;
+  }
+  
+  .dia-semana {
+    background-color: rgba(92, 107, 221, 0.07);
+    text-align: center;
+    padding: .750rem;
+  }
+  
+  .dayOferta {
+    background-color: rgba(255, 0, 0, 0.487);
+    color: #fff;
+  }
+  .weekOferta{
+    background-color: rgba(72, 255, 0, 0.487);
+    color: #fff;
+  }
+  
+  h2  {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /* ********* BEM ******** */
+  .ofertas{
+      position: fixed;
+      text-align: center;
+  }
+  .ofertas__Container{
+      color: rgb(0, 0, 0);
+      padding: 0rem;
+  }
+
+  .Ofertas__texto{
+      color: rgba(0, 128, 128, 0.842);
+      text-decoration-line: underline ;
+  }
+
+  .promociones{
+      color: rgba(139, 140, 151, 0.878);
+      font-family: cursive 1px;
+      font-style: oblique;
+      padding: 1rem;
+      text-align: center;
+
+  }
+
+
+
+  /********** CSS GRID ************/
+
+
+.contenedor {
+    width: 20%;
+    max-width: 50px;
+    border: 10px solid rgba(34, 33, 33, 0.87);
+    margin: auto;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+.contenedor > div {
+    display: block;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration-style: double;
+    background-image: linear-gradient(to bottom, #c09a9a, #8c7173, #5b4b4d, #2f2829, #000000);
+    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+    text-align: center;
+}
+
+
+
+
+/* ******** MOBILE FIRST ********** */ 
+
+
+@media (max-width: 480px) {
+    .footer {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        }
+    }
+
+    .sectionNew {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      
+     .sectionNew > div {
+        display: grid;
+        grid-template-areas: 
+          "img1 img2 img2"
+          "img3 img3 img4"
+          "img5 img6 img7";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        /*background-color: yellow;*/
+        /*justify-content: center;*/
+        height: 600px;
+        gap: 10px;
+      }
+      
+      .img1 {
+        grid-area: img1;
+      }
+      
+      .img2 {
+        grid-area: img2;
+      }
+      
+      .img3 {
+        grid-area: img3;
+      }
+      
+      .img4 {
+        grid-area: img4;
+      }
+      
+      .img5 {
+        grid-area: img5;
+      }
+      
+      .img6 {
+        grid-area: img6;
+      }
+      .img7 {
+        grid-area: img7;
+      }
+      
+      .sectionNew > div > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      @media (max-width: 768px) {
+        sectionNew > div {
+          grid-template-areas: 
+          "img1" "img2" "img3" 
+          "img4" "img5" "img6";
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(6, 200px);
+        }
+      }
+
+      /* ******** SECCION FABRICA ***** */
+
+      
+    .sectionNew {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+/* *********** BEM ************* */
+      .sectionNew > div {
+        display: grid;
+        grid-template-areas: 
+          "img1 img2 img2"
+          "img3 img3 img4"
+          "img5 img6 img7"
+          ;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr) 3fr;
+        /*background-color: yellow;*/
+        /*justify-content: center;*/
+        height: 600px;
+        gap: 10px;
+      }
+      
+      .imgPrincipal{
+          position: absolute;
+      }
+      
+      .img__diseno{
+        background-color: whitesmoke;
+      }
+
+      .img_11 {
+        grid-area: img1;
+      }
+      
+      .img_22 {
+        grid-area: img2;
+      }
+      
+      .img_33 {
+        grid-area: img3;
+      }
+      
+      .img_44 {
+        grid-area: img4;
+      }
+      
+      .img_55 {
+        grid-area: img5;
+      }
+      
+      .img_66 {
+        grid-area: img6;
+      }
+      
+      .img_77 {
+        grid-area: img7;
+      }
+
+      .section__New > div > img_ {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .animate__animated.animate__bounce {
+        --animate-duration: 3s;
+        
+      }
+
+/* --- Redes Sociales --- */
+
+
+/* ********* BEM ************* */
+.redes {
+  padding: 1rem 0;
+  margin-right: 10px;
+  display: flex;
+
+ }
+ 
+ .redes .redes__icono {
+     font-size: 40px;
+     transition: color 0.7s;
+ }
+ 
+ .redes .redes__icono:hover {
+     color: #ff0000c6;
+ }
+ .footer .flex-center {
+  justify-content: space-around;
+}
+
+    
+/* --- Seccion Inversores - Equipo --- */
+
+.seccion--inversores {
+  background-color: #fff;
+}
+
+.seccion--inversores .seccion__titulo {
+  color: #ff1515;
+}
+
+/* ********* BEM ********* */
+.gridContenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: 
+      ". inversor1 ."
+      "inversor2 . inversor3"
+  ;
+}
+
+.grid__hijo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    gap: 10px;
+}
+
+.grid__1 {
+  grid-area: inversor1;
+}
+.grid__2 {
+  grid-area: inversor2;
+}
+.grid__3 {
+  grid-area: inversor3;
+}
+
+.grid__img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+/* ---- Seccion Mapa ---- */
+
+/* ******* BEM ********** */
+
+.mapa {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.mapa__iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.mapa__texto {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #ff00008f;
+    color: #000;
+    opacity: 0.5;
+    transition:cubic-bezier(0.68, -0.55, 0.265, 1.55) 1.5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.mapa:hover .mapa__texto{
+    top: 0;
+}
+
+.lead{
+  font-size: 1.30rem;
+  font-weight: 300;
+  color: #41c641;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/*********** GALERIA ************/
+
+#galeriaFabrica{
+  /*background-color: rgba(0, 0, 0, 0.718);*/
+  width: 100%;
+  /*height: 500px;*/
+}
+
+
+.galeria__containerNew{
+  width: 100%;
+  height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.612);*/
+}
+
+.img-containerGaleria{
+  width: 300px;
+  height: 300px;
+  padding: 20px 20px !important;
+}
+
+.galeria__imgNew{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: cubic-bezier(1, 0, 0, 1); 
+  filter:grayscale(50%);
+}
+
+
+/* ********* CAROUSEL ********** */
+
+.carousel-inner img{
+  height: 500px;
+  object-fit: cover;
+}
+
+
+.loginSize{
+  width: 300px;
+  height: 300px;
+  size: 50px;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+
+/* ******* SASS ****** */
+.caja1 {
+  width: $ancho * 2;
+}
+
+.caja2 {
+  width: $ancho + 50;
+}
+
+$animal: gato; /* Mi constante */
+
+p {
+    @if $animal == gato {
+        color: blue;
+    } @else if $animal == perro {
+        color: red;
+    } @else if $animal == caballo {
+        color: green;
+    } @else {
+        color: black;
+    }
+}
+
+
+/* *** MODO OSCURO/CLARO *** */
+$modo-oscuro: true;
+
+body {
+  @if $modo-oscuro == true {
+      background-color: black;
+      color: white;
+  } @else if $modo-oscuro == false {
+      background-color: yellow;
+      color: red;
+  }  
+}
+
+/* ***** EACH ***** */
+.contenedor_sabores {
+  width: 1200px; 
+  height: 50px;
+  margin-left: 9rem;
+}
+
+.Ipa-icon {
+  background-size: cover;
+  background-image: url("/imagenes/malta ipa.jpg");
+  padding: 10px;
+}
+
+.Apa-icon {
+  background-size: cover;
+  Background-image: url("/imagenes/malta apa.jpg");
+  padding: 10px;
+}
+
+.Stout-icon {
+  background-size: cover;
+  Background-image: url("/imagenes/maltanegra.jpg");
+  padding: 10px;
+
+}
+
+// Mixins
+.cuadrado {
+  @include cuadrado(100px, yellow)
+}
+
+.pruebaExtend {
+  @extend %pruebaExtend;
+  background-color: blue;
+}
+
+// Operaciones
+
+.pruebaOperacion {
+  width: 150px / 500px * 50%;
+}
+    
+// BUCLES
+
+@for $i from 1 through 4 {
+  .tiposCerveza-#{$i} { 
+    font-size: 8px * $i; 
+    color: purple;
+  }
+}
